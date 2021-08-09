@@ -237,7 +237,7 @@ Instead, you use an **anchor element** (`a`). According to _HTML for Dummies_,
 
 The _anchor element_ uses the same attributes as the _link element_, primarily
 relying on the "href" attribute to point where the link goes. After the lists,
-add a new `h1` element that describes the section, add a paragraph that contains
+add a new `h2` element that describes the section, add a paragraph that contains
 some text about how links work, and then, in the paragraph, add an _anchor
 element_ with an "href" attribute that points to DuckDuckGo with the content "Go
 to DuckDuckGo to search for more information."
