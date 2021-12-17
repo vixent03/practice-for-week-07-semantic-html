@@ -13,7 +13,7 @@ You will add semantic HTML elements to this HTML document.
 
 Type along with this walkthrough to familiarize (or continue to practice)
 creating HTML documents. You are going to build your own HTML reference sheet.
-You can come back and refer to this if your forget how to add an image to an
+You can come back and refer to this if you forget how to add an image to an
 HTML document, or how to properly structure tabular data.
 
 **Do not copy and paste**. Really. Practice makes perfect. If you're still
@@ -92,7 +92,7 @@ content.
 Headings come in different levels: `h1` for the top-level heading, `h2` for
 the top sub-heading, `h3` for the next sub-heading. Importantly, every page
 should have one, and only one `h1` tag. Google's web-crawlers will search for
-the `h1` on each page to label the search result. If they don't find one, your
+the `h1` on each page to label the search result. If they don't find one, you
 will be penalized with lower search rankings.
 
 ### SEO (sub-heading)
