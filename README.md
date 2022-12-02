@@ -68,7 +68,7 @@ people use tabs instead of spaces.
 </html>
 ```
 
-Finally, add an opening and closing `title` tag as a child of the `head`. Make
+Next, add an opening and closing `title` tag as a child of the `head`. Make
 sure it has content reading "My HTML Cheat Sheet". That is the content that you
 will see in the tab or the title bar of your browser. It can be (and is, in this
 case) different from the name of your HTML file.
@@ -84,8 +84,32 @@ case) different from the name of your HTML file.
 </html>
 ```
 
+Finally, add a __favicon__ to your site. A favicon is a small icon that is
+displayed in your browser tab next to your title. To add a favicon, you can add
+a link element that specifies a path to the image. The link element does not require a closing tag. You will learn more about the link tag in future lessons.
+
+Add the following line of code directly underneath your title element:
+
+```html
+<link rel="icon" href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/sample-icon.png" />
+```
+
 And, that is a valid, minimal HTML 5 document just waiting for some happy
-content.
+content. At the end of phase 1, your file should look like this:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Cheat Sheet</title>
+    <link rel="icon" href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/sample-icon.png" />
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+Save your file, then refresh your web browser. You should see your title and the sample favicon appear in the browser tab.
 
 ## Phase 2: Headings
 
@@ -254,7 +278,7 @@ to DuckDuckGo to search for more information."
       </a>
     </p>
     <p>
-      Setting `target="_blank"` will open the link in a new window. See 
+      Setting `target="_blank"` will open the link in a new window. See
       <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
         MDN
       </a>
