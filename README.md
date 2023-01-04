@@ -1,13 +1,15 @@
 # Walkthrough: Semantic HTML (SOLO)
 
 In this walkthrough, you will be building an HTML web page with semantic HTML
-elements.
+elements. At the end of the practice, you can run a suite of tests to confirm
+that you completed all of the required elements.
 
 ## Set up
 
-So, create a new directory, open Visual Studio Code to that directory, create a
-file in it named __index.html__, and open the HTML document in a browser.
-You will add semantic HTML elements to this HTML document.
+1. Clone the starter from GitHub
+2. Run `npm install` to install dependencies
+3. Create a file at the root of the project directory named __index.html__, and
+open the HTML document in a browser.
 
 ## Important Note
 
@@ -26,6 +28,12 @@ doing while typing. Don't just copy. Copy and think! If you practice writing out
 all your code now, before long you'll be closing elements and using double
 quotations without having to think about it. This will make things much easier
 when the projects that you're expected to complete become more and more complex.
+
+## Checking your work
+
+At the end of each phase, run `npm run test` to run the Cypress tests, and
+confirm that you have completed all of the tasks for that phase. Address any
+errors before moving on to the next phase.
 
 ## Phase 1: Creating the basic HTML5 structure
 
@@ -432,9 +440,9 @@ Add a paragraph and describe the structure of a table and how it works.
 ## Phase 8: Other content section tags
 
 Here are some tags that you will definitely want to use in your own work.
-However, there's not really a section on this page to use them, really. So, add
-a new section, and add them and their summaries to a list or table of your
-reference sheet.
+However, there's not really a section on this page to use them, and there are no
+corresponding Cypress tests. So, add a new section, and add them and their
+summaries to a list or table of your reference sheet.
 
 * [article] element
 * [footer] element
@@ -445,7 +453,7 @@ reference sheet.
 
 Please read the following articles on Mozilla Developer Network to give yourself
 good exposure to forms. Add the forms that you build to one or more new sections
-in this reference sheet.
+in this reference sheet. There are no tests for this section.
 
 * [Your first form]
 * [How to structure a web form]
