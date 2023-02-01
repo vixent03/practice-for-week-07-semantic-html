@@ -14,7 +14,7 @@ open the HTML document in a browser.
 ## Important Note
 
 Type along with this walkthrough to familiarize (or continue to practice)
-creating HTML documents. You are going to build your own HTML reference sheet.
+creating HTML documents. You are going to build your HTML reference sheet.
 You can come back and refer to this if you forget how to add an image to an
 HTML document, or how to properly structure tabular data.
 
@@ -59,7 +59,7 @@ element.
 </html>
 ```
 
-The `html` element has two valid child elements, the `head` element and the
+The `html` element has two valid child elements, the `head` element, and the
 `body` element. Both of those tags are **non-empty tags**, which means they will
 have both an open tag and a close tag. Generally, when you add a child element
 to an existing element, you indent one level. By convention, indentation is
@@ -158,7 +158,7 @@ this tag to your reference sheet.
 ## Phase 3: Paragraphs
 
 It will be helpful to add notes to your reference sheet. Paragraphs of
-long-form text containing complete sentences go in the `p` (paragraph) tag.
+long-form text containing complete sentences goes in the `p` (paragraph) tag.
 
 Add a one-paragraph description to help you remember how headings and
 paragraphs work.
@@ -206,7 +206,7 @@ remind yourself how to list the items.
       <h2>Lists</h2>
       <h3>Unordered Lists</h3>
       <p>
-        Unordered lists are marked with bullet points and go in `ul` tags. Each list item goes in an `li` tag.
+        Unordered lists are marked with bullet points and go in `ul` tags. Each list item goes in a `li` tag.
       </p>
       <h4>Types of lists:</h4>
       <ul>
@@ -221,7 +221,7 @@ remind yourself how to list the items.
 ### The ordered list
 
 Next is the **ordered list** (`ol`). Add a numbered list containing Polya's
-problem solving framework.
+problem-solving framework.
 
 ```html
 <html>
@@ -230,7 +230,7 @@ problem solving framework.
       <h2>Lists</h2>
       <h3>Unordered Lists</h3>
       <p>
-        Unordered lists are marked with bullet points and go in `ul` tags. Each list item goes in an `li` tag.
+        Unordered lists are marked with bullet points and go in `ul` tags. Each list item goes in a `li` tag.
       </p>
       <h4>Types of lists:</h4>
       <ul>
@@ -240,7 +240,7 @@ problem solving framework.
 
       <h3>Ordered Lists</h3>
       <p>
-        Ordered lists are numbered and go in `ol` tags. Each list item goes in an `li` tag.
+        Ordered lists are numbered and go in `ol` tags. Each list item goes in a `li` tag.
       </p>
       <h4>Polya's Problem Solving Framework</h4>
       <ol>
@@ -303,7 +303,7 @@ different about them?
 
 ## Phase 6: Add an image
 
-Add a new section. Add a new header that labels this is the image section.
+Add a new section. Add a new header that labels this as the image section.
 Add a paragraph. Now, in the paragraph, add an **image element** (`img`) that
 has a source attribute named "src" to which you assign the URL of the image that
 you want to see. Here's a list of URLs from which you can choose.
@@ -331,7 +331,7 @@ The alt text will also display if the image cannot be displayed for any
 reason, including a dead link or a poor internet connection.
 
 It is also important for accessibility reasons. Visually impaired internet
-users may browse the web with assistance of a screen reader. These will read
+users may browse the web with the assistance of a screen reader. These will read
 the alt text aloud to the user, allowing them to understand the image without
 seeing it.
 
@@ -339,7 +339,7 @@ More people that can use your website means more potential customers.
 
 ## Phase 7: Tables
 
-Add a new section. Add a new header that labels this is the table section.
+Add a new section. Add a new header that labels this as the table section.
 
 Tables in HTML are great for displaying tabular data, such as an address book or
 a list of product descriptions and prices. Although tables are good for keeping
@@ -439,7 +439,8 @@ Add a paragraph and describe the structure of a table and how it works.
 
 ## Phase 8: Other content section tags
 
-Here are some tags that you will definitely want to use in your own work.
+Here are some tags that you will want to use in your work.
+
 However, there's not really a section on this page to use them, and there are no
 corresponding Cypress tests. So, add a new section, and add them and their
 summaries to a list or table of your reference sheet.
@@ -464,7 +465,7 @@ in this reference sheet. There are no tests for this section.
 ## What you've learned
 
 You've learned how to create valid HTML 5 pages using structural and form
-elements with client side validation. Moreover, using those elements, you
+elements with client-side validation. Moreover, by using those elements, you
 created a reference sheet for yourself so that you can come back and refer to it
 as you continue to grow familiar with how to wield HTML 5 as a markup language
 to create compelling Web experiences!
